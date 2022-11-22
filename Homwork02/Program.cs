@@ -13,5 +13,7 @@ string str = Convert.ToString(Console.ReadLine());
 
 if(str.Length < 3)
    Console.WriteLine("Третьей цифры нет");
+if ( str[0] ==  - )
+Console.WriteLine("Третьей цифры нет");
 Console.WriteLine( str[2]);
 
