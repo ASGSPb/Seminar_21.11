@@ -13,23 +13,18 @@ int a = Convert.ToInt32(Console.ReadLine());
 string b = Convert.ToString ( a );
 
 if (b.Length == 3 ){   
-    if(a > 0){
+    if(a > 0)
            Console.WriteLine( b[2]);
-           }    
-    else{
-           Console.WriteLine("Третьей цифры нет");
-           }       
+    else
+           Console.WriteLine("Третьей цифры нет");       
 }
 else{ 
     if (b.Length > 3 ){
-                if(a < 0){
-                    Console.WriteLine( b[3]);
-                } 
-                else{
+                if(a < 0)
+                    Console.WriteLine( b[3]); 
+                else
                     Console.WriteLine( b[2]);
-                }
     }
-    else{
-        Console.WriteLine("Третьей цифры нет");
-    }     
+    else
+        Console.WriteLine("Третьей цифры нет");  
 }
