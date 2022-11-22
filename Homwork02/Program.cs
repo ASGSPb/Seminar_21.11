@@ -9,11 +9,22 @@ Console.Clear();
 Console.WriteLine("Введите число");
 Console.WriteLine("a = ");
 
-string str = Convert.ToString(Console.ReadLine());
+int a = Convert.ToInt32(Console.ReadLine());
+string b = Convert.ToString ( a );
 
-if(str.Length < 3)
-   Console.WriteLine("Третьей цифры нет");
-if ( str[0] ==  - )
+if (b.Length >= 3 ){   
+    if(a < 0){
+           if (b.Length >= 3 ){               
+                Console.WriteLine( b[3]);
+           }    
+           else{
+                Console.WriteLine("Третьей цифры нет");
+           }    
+    }  
+    else {
+        Console.WriteLine( b[2]); 
+    }
+}
+else{
 Console.WriteLine("Третьей цифры нет");
-Console.WriteLine( str[2]);
-
+}
