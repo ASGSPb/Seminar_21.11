@@ -7,7 +7,7 @@
 Console.WriteLine("Введите x");
 int x = Console.ToInt32(Console.ReadLine())
 
-onsole.WriteLine("Введите y");
+Console.WriteLine("Введите y");
 int y = Console.ToInt32(Console.ReadLine())
 
 if (x > 0) && (y > 0)
